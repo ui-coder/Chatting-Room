@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Chat Room</title>
+
+    <!-- Place your stylesheet here-->
+    <link href="/css/custom.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="chat-room">
+
+    <div class="r">
+        <div style="font-weight:bold; color:#DBCFBF;">
+            <div class="date-time text-color">Today:
+                <span id="date_time"></span>
+            </div>
+            <img class="avatar rounde" src="https://lh3.googleusercontent.com/-z-ML-XHNec4/AAAAAAAAAAI/AAAAAAAAAHU/OFEa9sM2LuI/photo.jpg" style="width: 50px !important; height: 50px !important;display: block; position: absolute; right: 10px; top: -7px;" alt="avatar">
+            <hr>
+        </div>
+        <!-- /date and time clock -->
+
+        <div class="rounded" style="width:1200px; height:220px; overflow:auto; background-color:#f2ecec; opacity:.7;">
+
+            <div style="padding:0px 15px 18px 15px;">
+                <div class="textbox">
+                    <p>
+                        <em><b style="color: #24659a;">RomSky:</b>
+                        </em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat repellat animi nisi consequatur, dolor nobis repellendus tempora amet. Ducimus odit repellendus ipsa a recusandae qui nihil! At nostrum autem laborum.</p>
+                    <p>
+                        <em><b><span style="color: #c00000;">H</span>tml<span style="color:#24659a;">S</span>trap:</b>
+                        </em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat repellat animi nisi consequatur, dolor nobis repellendus tempora amet. Ducimus odit repellendus ipsa a recusandae qui nihil! At nostrum autem laborum.</p>
+                    <p>
+                        <em><b style="color: #24659a;">RomSky:</b>
+                        </em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat repellat animi nisi consequatur, dolor nobis repellendus tempora amet. Ducimus odit repellendus ipsa a recusandae qui nihil! At nostrum autem laborum.</p>
+                </div>
+            </div>
+        </div>
+        <!-- /text table -->
+        <div class="form-group">
+            <form method="post" action="/Minora/Insert">
+                <textarea class="rounded" id="msg" maxlength="500" name="Message" style="min-width: 714px; max-width:714px; max-height: 100px; min-height: 100px; margin:15px 0 10px 363px; padding:10px;opacity:.6;"></textarea>
+                <br>
+                <input class="btn rounded animate shake" type="submit" value="Send" style="width: 736px; height: 60px; margin-left: 363px; font-size:20px; color:#f2ecec;">
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/date-time.js"></script>
+
+</body>
+
+</html>
